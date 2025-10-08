@@ -56,6 +56,7 @@ import Navbar from './components/Navbar';
 import QRCodeGenerator from './components/qrcodegeneration'; // This matches your actual file name
 // index.js or App.js
 import './App.css';
+import Resume from './components/resume';
 
 // import AuthProvider from './path/to/AuthProvider'; // Uncomment and fix path if you have AuthProvider
 
@@ -67,6 +68,7 @@ function App() {
       <Routes>
         <Route path="/" element={<div style={{padding: '20px'}}><h1>Home Page</h1></div>} />
         <Route path="/QRCodeGenerator" element={<QRCodeGenerator/>}/>
+        <Route path="/resume" element={<Resume/>}/>
       </Routes>
     </Router>
   );

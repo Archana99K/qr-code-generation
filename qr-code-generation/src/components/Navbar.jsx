@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto flex space-x-4">
         <Link to="/" className="hover:text-blue-200">Home</Link>
         <Link to="/QRCodeGenerator" className="hover:text-blue-200">QR Generator</Link>
+        <Link to="/resume" className="hover:text-blue-200">resume</Link>
         {/* Add other navigation links */}
       </div>
     </nav>
